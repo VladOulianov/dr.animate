@@ -1,0 +1,213 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    width: 500px;
+}
+#dr{
+    animation: tremble 0.01s 1510 none ;
+
+}
+@keyframes tremble{
+    from{
+        transform: translateX(0);
+    }
+    0.1%{
+        transform: translateX(-0.5%);
+    }
+    to{
+        transform: translateX(0.5%);
+    }
+
+} 
+#moustache{
+    animation: moustache 15s  ;
+    
+}
+@keyframes moustache{
+    from{
+       opacity: 0;
+    }
+    29.9%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+
+#cheveux{
+    animation: cheveux 15s ;
+    
+}
+@keyframes cheveux{
+    from{
+        opacity: 0;
+    }
+    10.9%{
+        opacity: 0;
+    }
+    11%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+#casque{
+    animation: casque 15s ;
+    
+}
+
+@keyframes casque{
+    from{
+        opacity: 0;
+    }
+    19.9%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+
+#lunette{
+    
+    animation: lunette 15s, lunette2 15s forwards;
+    
+}
+@keyframes lunette{
+    from{
+        opacity: 0;
+        
+    
+    }
+    39.9%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+       
+    }
+    100%{
+        opacity: 1;
+       
+    }
+}
+@keyframes lunette2{
+    from{
+        
+        fill: black;
+    
+    }
+    
+    59.9%{
+        fill: black;
+    }
+    60%{
+        
+        fill: #A52020;
+    }
+    100%{
+        fill: #A52020;
+    }
+}
+#orage{
+    animation: orage 15s forwards;
+}
+@keyframes orage{
+    from{
+        opacity: 0;
+    }
+    60.99%{
+        opacity: 0;
+    }
+    61%{
+        opacity: 1;
+    }
+    61.99%{
+        opacity: 0;
+    }
+    62%{
+        opacity: 1;
+    }
+    62.99%{
+        opacity: 0;
+    }
+    63%{
+        opacity: 1;
+    }
+    70.99%{
+        opacity: 0;
+    }
+    71%{
+        opacity: 1;
+    }
+    71.99%{
+        opacity: 0;
+    }
+    72%{
+        opacity: 1;
+    }
+    72.99%{
+        opacity: 0;
+    }
+    73%{
+        opacity: 1;
+    }
+    80.99%{
+        opacity: 0;
+    }
+    81%{
+        opacity: 1;
+    }
+    81.99%{
+        opacity: 0;
+    }
+    82%{
+        opacity: 1;
+    }
+    82.99%{
+        opacity: 0;
+    }
+    83%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#eclair{
+    animation: eclair 15s ;
+}
+@keyframes eclair{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 0;
+    }
+}
+#nuage{
+    animation: nuage 15s forwards ;
+}
+@keyframes nuage{
+    from{
+        opacity: 1;
+    }
+    99.99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
